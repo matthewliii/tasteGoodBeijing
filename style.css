@@ -350,6 +350,10 @@ body {
     #logo {
         height: 7vw;
     }
+
+    #logoText {
+        font-size: 35px;
+    }
     
     .right img {
         width: 400px;
