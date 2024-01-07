@@ -167,7 +167,19 @@ body {
     margin: 5px 0px;
 }
 
+.daily {
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
 
+.day-time {
+    width: 50px;
+}
+
+.time {
+    padding-left: 5px;
+}
 
 .call-to-action {
     display: flex;
@@ -219,57 +231,6 @@ body {
     padding: 30px;
     color: #F9FAF8;
 }
-
-/* @media only screen and (min-width:100px) and (max-width:767px) {
-    .header {
-        font-size: 16px;
-        padding: 0px 50px;
-    }
-
-    #logoGroup{
-        justify-content: center;
-    }
-
-    #logoText {
-        font-size: 20px;
-    }
-    
-    .header ul {
-        display: none;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: #1c1917;
-        padding: 30px 50px 30px 50px;
-        justify-content: center;
-        align-items: center;
-        gap: 6vw;
-    }
-
-    .right img {
-       width:  350px;
-    }
-
-    .call-to-action {
-        margin: 25px 25px;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 5px;
-        padding: 10px 40px;
-        color: #F9FAF8;
-        font-size: 18px;
-    }
-
-    .button-group {
-        flex-direction: column
-    }
-
-    #locations {
-        flex-wrap: wrap;
-    }
-}; */
 
 @media only screen and (min-width:768px){
     .header {
